@@ -1,17 +1,47 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Bank
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div id="frente">
+    <img id="bandeira" src=".\assets\icon\visa.png">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <img id="chip" src=".\assets\icon\chip.png">
+    <span class="numero">2345 3452 5313 7652</span>
+    <span class="validade">
+      valid <br>
+      thru
+    </span>
+    <span class="data">12/23</span>
+    <span class="nome">Yan Medeiros</span>
+  </div>
+  <div id="tabela">
+    <span class="tx-compras">Compras</span>
+  <ion-list>
+    <ion-item>
+      <ion-label>Pokémon Yellow</ion-label>
+      <ion-label>R$ 300,00</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Mega Man X</ion-label>
+      <ion-label>R$ 300,00</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>The Legend of Zelda</ion-label>
+      <ion-label>R$ 300,00</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Pac-Man</ion-label>
+      <ion-label>R$ 300,00</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Super Mario World</ion-label>
+      <ion-label>R$ 300,00</ion-label>
+    </ion-item>
+  </ion-list>
+</div>
 </ion-content>
