@@ -5,9 +5,9 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
 import { cameraService } from '../services/camera.service';
 
 @Component({
-  selector: 'app-tab2',
-  templateUrl: 'tab2.page.html',
-  styleUrls: ['tab2.page.scss'],
+  selector: 'app-camera',
+  templateUrl: 'camera.page.html',
+  styleUrls: ['camera.page.scss'],
   standalone: true,
   imports: [IonicModule, ExploreContainerComponent,CommonModule]
 })
